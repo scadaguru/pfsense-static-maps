@@ -37,5 +37,5 @@ Please make sure that csv file should not have any formatting except comma seper
 7. a. Using some editor like notepad++ open that pfsense-dhcp.xml file and search for "staticmap". Now delete all "staticmap" entries 
 b. Open python script generated file called "static-map.xml" in editor and select everything from that file and copy to clipboard
 c. Goto pfsense-dhcp.xml and paste where you delete all "staticmap" entries and save the file pfsense-dhcp.xml
-8. Go back to pfsense GUI and from the menu Diagnostic select "Backup and Restore" and this time from "Resotre Backup" section select "DHCP Server" and choose file name "pfsense-dhcp.xml" and click "Restore Configuration"
+8. Go back to pfsense GUI and from the menu Diagnostic select "Backup and Restore" and this time from "Resotre Backup" section select <span style="color:red">**"DHCP Server"**</span>. and choose file name "pfsense-dhcp.xml" and click "Restore Configuration"
 9. You may have to restart pfsense and then go to menu Status and select "DHCP Leases" option and that should have all your static DHCP device you provided in the static-ips.xml file
