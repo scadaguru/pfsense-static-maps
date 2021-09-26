@@ -1,0 +1,5 @@
+MAC,IP,Description,HostName
+41:41:41:41:41:41,192.168.1.1,pfsense-wan,
+42:42:42:42:42:42,192.168.1.2,USW-Flex-Mini-Main,
+43:43:43:43:43:43,192.168.1.10,omv-nas,omv.local
+44:44:44:44:44:44,192.168.1.100,win10-pc,devpc.local
